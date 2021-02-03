@@ -1,0 +1,101 @@
+*{
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    height: 10%;
+}
+.cabecera{
+    height: 100%;
+    text-align: center;
+}
+
+.seccion{
+    height: 80%;
+}
+
+.foter{
+    height: 10%;
+}
+
+.cuadricula{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+    border-color: black;
+    border:solid;
+    height: 99%;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cuadrado1{
+    grid-column: 1/2;
+    border: solid;
+    border-color: black;
+    background-color: red;
+}
+#cuadrado2{
+    grid-column: 2/3;
+    border: solid;
+    border-color: black;
+    background-color: red;
+}
+#cuadrado3{
+    grid-column: 3/4;
+    border: solid;
+    border-color: black;
+    background-color: red;
+}
+
+#cuadrado4{
+    grid-column: 4/5;
+    border: solid;
+    border-color: black;
+    background-color: red;
+}
+#cuadrado5{
+    grid-column: 5/6;
+    border: solid;
+    border-color: black;
+    background-color: red;
+}
+#cuadrado6{
+    grid-column: 1/1;
+    border: solid;
+    border-color: black;
+    background-color: red;
+}
+#cuadrado7{
+    grid-column: 2/3;
+    border: solid;
+    border-color: black;
+    background-color: red;
+}
+
+#cuadrado8{
+    grid-column: 3/4;
+    border: solid;
+    border-color: black;
+    background-color: red;
+}
+#cuadrado9{
+    grid-column: 4/5;
+    border: solid;
+    border-color: black;
+    background-color: red;
+}
+#cuadrado10{
+    grid-column: 5/6;
+    border: solid;
+    border-color: black;
+    background-color: red;
+
+}
+
+.reloj{
+    text-align: center;
+    font-size: 400%;
+}
